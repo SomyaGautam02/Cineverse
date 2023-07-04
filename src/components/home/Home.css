@@ -40,7 +40,7 @@
     width: 50%;
 }
 
-@media(max-width:450px) {
+@media(max-width:480px) {
     .poster_image{
         height: 250px;
     }

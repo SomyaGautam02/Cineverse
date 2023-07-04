@@ -24,7 +24,7 @@
 }
 
 
-@media(max-width:450px) {
+@media(max-width:480px) {
     .categories{
         padding-left: 2rem;
     }
