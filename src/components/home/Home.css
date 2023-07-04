@@ -1,0 +1,56 @@
+.poster_image{
+    height: 500px;
+}
+
+.poster_image  img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.poster_image_overlay {
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+}   
+
+.poster_title {
+    font-weight: 600;
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.poster_description {
+    font-style: italic;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+}
+
+@media(max-width:450px) {
+    .poster_image{
+        height: 250px;
+    }
+    .poster_description{
+        font-size: .8rem;
+        width: 70%;
+
+    }
+    .dot{
+        width: 2px;
+        height: 2px;
+    }
+}

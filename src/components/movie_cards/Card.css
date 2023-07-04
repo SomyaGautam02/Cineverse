@@ -1,0 +1,28 @@
+.movies_card{
+  display: grid; 
+  justify-content: space-around; 
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 2rem;
+}
+
+  .movie_cards{
+    border: solid #000;
+    position: relative;
+    width: 220px;
+    height: 280px;
+    border-radius: .5rem;
+  }
+  
+  img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .text{
+    position: absolute;
+    top: 0;
+    color: #fff;
+  }
+  @media screen {
+    
+  }
