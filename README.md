@@ -3,6 +3,8 @@
 
 The **Cineverse** website is a simple React project that allows users to explore information about top-rated, popular, and upcoming movies. The website serves as a centralized platform for movie enthusiasts to discover details about their favorite films.
 
+Link for the website- https://cineverse.pages.dev/
+
 
 ## Features
 
